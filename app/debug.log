@@ -1,0 +1,854 @@
+- 23:35:19.000 INFO: --------------------------------------------------------
+- 23:35:19.000 INFO: Starting application
+- 23:35:19.000 INFO: PHP Desktop version: 130.1
+- 23:35:19.000 INFO: Chromium version: CEF 130.1.15+g34b05bb+chromium-130.0.6723.92
+- 23:35:19.000 INFO: Logging to: C:\Users\User\Web-site\hauhet.co\meter\emd\debug.log
+- 23:35:19.000 INFO: Log level = DEBUG4
+- 23:35:19.000 INFO: Starting Mongoose 3.9c web server
+- 23:35:19.000 INFO: WWW directory: C:\Users\User\Web-site\hauhet.co\meter\emd\www
+- 23:35:19.000 INFO: Index files: index.html,index.php
+- 23:35:19.000 INFO: CGI interpreter: C:\Users\User\Web-site\hauhet.co\meter\emd\php\php-cgi.exe
+- 23:35:19.000 INFO: CGI pattern: **.php$
+- 23:35:19.000 INFO: Hide files patterns: 
+- 23:35:19.000 INFO: CGI environment variables set: TMP=C:\Users\User\AppData\Local\Temp\,TEMP=C:\Users\User\AppData\Local\Temp\,TMPDIR=C:\Users\User\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=130.1
+- 23:35:19.000 INFO: Web server url: http://127.0.0.1:51515/
+- 23:35:19.000 INFO: remote_debugging_port = 62288
+- 23:35:19.000 INFO: Sandbox is disabled
+- 23:35:19.016 DEBUG: Command line string for the browser process: "C:\Users\User\Web-site\hauhet.co\meter\emd\emd.exe" --no-sandbox --lang=en-US --log-file="C:\Users\User\Web-site\hauhet.co\meter\emd\debug.log" --log-severity=disable --remote-debugging-port=62288 --disable-gpu
+- 23:35:19.125 DEBUG: App context initialized
+- 23:35:19.125 INFO: Create main window
+- 23:35:19.125 DEBUG: Window max width/height = 1600/1002
+- 23:35:19.125 DEBUG: Browser window not found, hwnd = 1378366
+- 23:35:19.125 DEBUG: Event WM_GETMINMAXINFO: could not fetch browser window
+- 23:35:19.125 DEBUG: Create main browser
+- 23:35:19.125 INFO: Runtime style: alloy
+- 23:35:19.125 DEBUG: Store browser window, hwnd = 1378366
+- 23:35:19.125 INFO: Main window was created, hwnd=1378366
+- 23:35:19.156 DEBUG: Browser was created
+- 23:35:19.156 DEBUG: Set browser for window
+- 23:35:19.172 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:35:20.000 DEBUG: Command line string for the utility process: "C:\Users\User\Web-site\hauhet.co\meter\emd\emd.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\Users\User\Web-site\hauhet.co\meter\emd\webcache" --log-severity=disable --field-trial-handle=2244,i,11650455150678876973,2942454043442172130,262144 --variations-seed-version --enable-logging=handle --log-file=3116 --mojo-platform-channel-handle=2916 /prefetch:3
+- 23:35:20.016 DEBUG: Command line string for the gpu-process process: "C:\Users\User\Web-site\hauhet.co\meter\emd\emd.exe" --type=gpu-process --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\Users\User\Web-site\hauhet.co\meter\emd\webcache" --log-severity=disable --gpu-preferences=UAAAAAAAAADgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --field-trial-handle=2036,i,11650455150678876973,2942454043442172130,262144 --variations-seed-version --enable-logging=handle --log-file=2188 --mojo-platform-channel-handle=2040 /prefetch:2
+- 23:35:20.015 DEBUG: Command line string for the utility process: "C:\Users\User\Web-site\hauhet.co\meter\emd\emd.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\Users\User\Web-site\hauhet.co\meter\emd\webcache" --log-severity=disable --field-trial-handle=2360,i,11650455150678876973,2942454043442172130,262144 --variations-seed-version --enable-logging=handle --log-file=3952 --mojo-platform-channel-handle=3940 /prefetch:8
+- 23:35:20.000 DEBUG: Command line string for the renderer process: "C:\Users\User\Web-site\hauhet.co\meter\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --user-data-dir="C:\Users\User\Web-site\hauhet.co\meter\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=62288 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1759425250180514 --launch-time-ticks=12069817130 --field-trial-handle=3548,i,11650455150678876973,2942454043442172130,262144 --variations-seed-version --enable-logging=handle --log-file=4020 --mojo-platform-channel-handle=4012 /prefetch:1
+- 23:35:20.047 DEBUG: V8 browser was created
+- 23:35:20.000 DEBUG: Command line string for the renderer process: "C:\Users\User\Web-site\hauhet.co\meter\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --user-data-dir="C:\Users\User\Web-site\hauhet.co\meter\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=62288 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1759425250180514 --launch-time-ticks=12069777194 --field-trial-handle=3540,i,11650455150678876973,2942454043442172130,262144 --variations-seed-version --enable-logging=handle --log-file=3972 --mojo-platform-channel-handle=3964 /prefetch:1
+- 23:35:20.547 INFO: GET 302 /
+- 23:35:20.297 DEBUG: V8 context created, in context: 1
+- 23:35:20.656 INFO: GET 200 /assets/materialize/css/materialize.min.css
+- 23:35:20.656 INFO: GET 200 /assets/materialize/js/materialize.min.js
+- 23:35:20.656 INFO: GET 200 /login.php
+- 23:35:20.719 INFO: JS Console: [Debug] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o(http://127.0.0.1:51515/login.php:0)
+- 23:35:20.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51515/login.php
+- 23:35:20.719 INFO: GET 404 /favicon.ico
+- 23:35:22.000 DEBUG: Command line string for the utility process: "C:\Users\User\Web-site\hauhet.co\meter\emd\emd.exe" --type=utility --utility-sub-type=chrome.mojom.ProcessorMetrics --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\Users\User\Web-site\hauhet.co\meter\emd\webcache" --log-severity=disable --field-trial-handle=4388,i,11650455150678876973,2942454043442172130,262144 --variations-seed-version --enable-logging=handle --log-file=4416 --mojo-platform-channel-handle=4412 /prefetch:8
+- 23:35:26.641 INFO: Focus browser, id=1
+- 23:35:30.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51515/login.php
+- 23:35:30.953 INFO: POST 302 /login.php
+- 23:35:30.719 DEBUG: V8 context created, in context: 1
+- 23:35:30.078 INFO: GET 200 /assets/justgage/raphael.min.js
+- 23:35:30.078 INFO: GET 200 /assets/justgage/justgage.js
+- 23:35:30.094 INFO: GET 200 /assets/fontawesome/css/all.min.css
+- 23:35:30.094 INFO: GET 200 /assets/jquery.min.js
+- 23:35:30.094 INFO: GET 200 /index.php
+- 23:35:30.094 INFO: GET 200 /assets/fontawesome/css/fontawesome.min.css
+- 23:35:30.094 INFO: GET 200 /assets/fontawesome/css/brands.min.css
+- 23:35:30.094 INFO: GET 200 /assets/fontawesome/webfonts/fa-solid-900.woff2
+- 23:35:30.094 INFO: GET 200 /assets/fontawesome/js/fontawesome.min.js
+- 23:35:30.094 INFO: GET 200 /assets/top.js
+- 23:35:30.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51515/index.php
+- 23:35:50.766 DEBUG: Before popup is created
+- 23:35:50.766 INFO: Setting default size for a popup window 800/600
+- 23:35:50.766 DEBUG: Window max width/height = 1600/1002
+- 23:35:50.781 DEBUG: Browser was created
+- 23:35:50.781 DEBUG: Browser window not found, hwnd = 2164304
+- 23:35:50.781 DEBUG: Create browser window for popup, hwnd=2164304
+- 23:35:50.781 DEBUG: Store browser window, hwnd = 2164304
+- 23:35:50.797 INFO: Focus browser, id=2
+- 23:35:50.797 DEBUG: Centering popup window relative to its parent
+- 23:35:50.438 DEBUG: V8 browser was created
+- 23:35:50.797 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:35:50.453 DEBUG: V8 context created, in context: 1
+- 23:35:50.953 INFO: GET 200 /help.php
+- 23:35:50.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51515/help.php
+- 23:35:59.453 INFO: Focus browser, id=1
+- 23:35:59.453 DEBUG: Before browser is closed, hwnd=2164304
+- 23:35:59.453 DEBUG: Remove browser window, hwnd = 2164304
+- 23:35:59.110 DEBUG: V8 browser was destroyed
+- 23:36:00.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51515/index.php
+- 23:36:00.937 INFO: GET 302 /logout.php
+- 23:36:00.688 DEBUG: V8 context created, in context: 1
+- 23:36:00.062 INFO: GET 200 /login.php
+- 23:36:00.062 INFO: JS Console: [Debug] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o(http://127.0.0.1:51515/login.php:0)
+- 23:36:00.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51515/login.php
+- 23:36:01.609 DEBUG: WM_DESTROY
+- 23:36:01.609 DEBUG: Remove browser window, hwnd = 1378366
+- 23:36:01.609 INFO: Stopping Mongoose web server
+- 23:36:01.609 DEBUG: Mongoose webserver stopped immediately
+- 23:36:01.625 DEBUG: Before browser is closed, hwnd=2033384
+- 23:36:01.625 DEBUG: Remove browser window, hwnd = 2033384
+- 23:36:01.625 DEBUG: Browser window not found, hwnd = 2033384
+- 23:36:01.625 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:36:01.625 DEBUG: Quit CEF message loop
+- 23:36:01.719 INFO: Ended application
+- 23:36:01.719 INFO: --------------------------------------------------------
+- 00:11:04.000 INFO: --------------------------------------------------------
+- 00:11:04.000 INFO: Starting application
+- 00:11:04.000 INFO: PHP Desktop version: 130.1
+- 00:11:04.000 INFO: Chromium version: CEF 130.1.15+g34b05bb+chromium-130.0.6723.92
+- 00:11:04.000 INFO: Logging to: C:\MyApp\emd\debug.log
+- 00:11:04.000 INFO: Log level = DEBUG4
+- 00:11:04.000 INFO: Starting Mongoose 3.9c web server
+- 00:11:04.000 INFO: WWW directory: C:\MyApp\emd\www
+- 00:11:04.000 INFO: Index files: index.html,index.php
+- 00:11:04.000 INFO: CGI interpreter: C:\MyApp\emd\php\php-cgi.exe
+- 00:11:04.000 INFO: CGI pattern: **.php$
+- 00:11:04.000 INFO: Hide files patterns: 
+- 00:11:04.000 INFO: CGI environment variables set: TMP=C:\Users\User\AppData\Local\Temp\,TEMP=C:\Users\User\AppData\Local\Temp\,TMPDIR=C:\Users\User\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=130.1
+- 00:11:04.000 INFO: Web server url: http://127.0.0.1:62868/
+- 00:11:04.000 INFO: remote_debugging_port = 56516
+- 00:11:04.000 INFO: Sandbox is disabled
+- 00:11:04.000 DEBUG: Command line string for the browser process: "C:\MyApp\emd\emd.exe" --no-sandbox --lang=en-US --log-file="C:\MyApp\emd\debug.log" --log-severity=disable --remote-debugging-port=56516 --disable-gpu
+- 00:11:04.156 DEBUG: App context initialized
+- 00:11:04.156 INFO: Create main window
+- 00:11:04.156 DEBUG: Window max width/height = 1600/1002
+- 00:11:04.156 DEBUG: Browser window not found, hwnd = 3278274
+- 00:11:04.156 DEBUG: Event WM_GETMINMAXINFO: could not fetch browser window
+- 00:11:04.156 DEBUG: Create main browser
+- 00:11:04.156 INFO: Runtime style: alloy
+- 00:11:04.156 DEBUG: Store browser window, hwnd = 3278274
+- 00:11:04.156 INFO: Main window was created, hwnd=3278274
+- 00:11:04.203 DEBUG: Browser was created
+- 00:11:04.203 DEBUG: Set browser for window
+- 00:11:04.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:11:04.016 DEBUG: Command line string for the gpu-process process: "C:\MyApp\emd\emd.exe" --type=gpu-process --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --gpu-preferences=UAAAAAAAAADgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --field-trial-handle=2176,i,18118791614742532061,5753575813447310267,262144 --variations-seed-version --enable-logging=handle --log-file=2364 --mojo-platform-channel-handle=2168 /prefetch:2
+- 00:11:04.047 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2276,i,18118791614742532061,5753575813447310267,262144 --variations-seed-version --enable-logging=handle --log-file=2776 --mojo-platform-channel-handle=2448 /prefetch:3
+- 00:11:04.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2368,i,18118791614742532061,5753575813447310267,262144 --variations-seed-version --enable-logging=handle --log-file=3832 --mojo-platform-channel-handle=3804 /prefetch:8
+- 00:11:04.000 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=56516 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1759425250180549 --launch-time-ticks=14214494959 --field-trial-handle=3580,i,18118791614742532061,5753575813447310267,262144 --variations-seed-version --enable-logging=handle --log-file=4008 --mojo-platform-channel-handle=3816 /prefetch:1
+- 00:11:04.047 DEBUG: V8 browser was created
+- 00:11:04.016 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=56516 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1759425250180549 --launch-time-ticks=14214450122 --field-trial-handle=3552,i,18118791614742532061,5753575813447310267,262144 --variations-seed-version --enable-logging=handle --log-file=3912 --mojo-platform-channel-handle=3816 /prefetch:1
+- 00:11:04.593 INFO: GET 302 /
+- 00:11:05.312 DEBUG: V8 context created, in context: 1
+- 00:11:05.718 INFO: GET 200 /assets/materialize/css/materialize.min.css
+- 00:11:05.718 INFO: GET 200 /assets/materialize/js/materialize.min.js
+- 00:11:05.734 INFO: GET 200 /login.php
+- 00:11:05.781 INFO: JS Console: [Debug] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o(http://127.0.0.1:62868/login.php:0)
+- 00:11:05.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62868/login.php
+- 00:11:05.781 INFO: GET 404 /favicon.ico
+- 00:11:05.453 INFO: Focus browser, id=1
+- 00:11:06.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=chrome.mojom.ProcessorMetrics --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4328,i,18118791614742532061,5753575813447310267,262144 --variations-seed-version --enable-logging=handle --log-file=4404 --mojo-platform-channel-handle=4396 /prefetch:8
+- 00:11:11.562 INFO: Focus browser, id=1
+- 00:11:16.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62868/login.php
+- 00:11:16.328 INFO: POST 302 /login.php
+- 00:11:16.047 DEBUG: V8 context created, in context: 1
+- 00:11:16.468 INFO: GET 200 /index.php
+- 00:11:16.468 INFO: GET 200 /assets/justgage/raphael.min.js
+- 00:11:16.468 INFO: GET 200 /assets/justgage/justgage.js
+- 00:11:16.468 INFO: GET 200 /assets/jquery.min.js
+- 00:11:16.468 INFO: GET 200 /assets/fontawesome/css/all.min.css
+- 00:11:16.468 INFO: GET 200 /assets/fontawesome/css/fontawesome.min.css
+- 00:11:16.468 INFO: GET 200 /assets/fontawesome/css/brands.min.css
+- 00:11:16.468 INFO: GET 200 /assets/fontawesome/webfonts/fa-solid-900.woff2
+- 00:11:16.484 INFO: GET 200 /assets/top.js
+- 00:11:16.484 INFO: GET 200 /assets/fontawesome/js/fontawesome.min.js
+- 00:11:16.546 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62868/index.php
+- 00:11:39.734 INFO: Focus browser, id=1
+- 00:11:43.437 DEBUG: JS dialog: Are you sure you want to delete this reading?
+- 00:11:43.437 INFO: JS Console: [Warning] A window.confirm() dialog generated by this page was suppressed because this page is not the active tab of the front window. Please make sure your dialogs are triggered by user interactions to avoid this situation. https://www.chromestatus.com/feature/5140698722467840(http://127.0.0.1:62868/index.php:0)
+- 00:11:43.578 INFO: POST 200 /index.php
+- 00:11:44.093 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62868/index.php
+- 00:11:44.812 DEBUG: V8 context created, in context: 1
+- 00:11:44.218 INFO: GET 200 /index.php
+- 00:11:44.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62868/index.php
+- 00:11:45.281 DEBUG: JS dialog: Are you sure you want to delete this reading?
+- 00:11:45.296 INFO: JS Console: [Warning] A window.confirm() dialog generated by this page was suppressed because this page is not the active tab of the front window. Please make sure your dialogs are triggered by user interactions to avoid this situation. https://www.chromestatus.com/feature/5140698722467840(http://127.0.0.1:62868/index.php:0)
+- 00:11:45.437 INFO: POST 200 /index.php
+- 00:11:46.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62868/index.php
+- 00:11:46.672 DEBUG: V8 context created, in context: 1
+- 00:11:46.093 INFO: GET 200 /index.php
+- 00:11:46.093 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62868/index.php
+- 00:11:48.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62868/index.php
+- 00:11:48.078 DEBUG: V8 context created, in context: 1
+- 00:11:48.484 INFO: GET 200 /index.php
+- 00:11:48.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62868/index.php
+- 00:11:49.250 DEBUG: Before popup is created
+- 00:11:49.250 INFO: Setting default size for a popup window 800/600
+- 00:11:49.250 DEBUG: Window max width/height = 1600/1002
+- 00:11:49.265 DEBUG: Browser was created
+- 00:11:49.265 DEBUG: Browser window not found, hwnd = 3934188
+- 00:11:49.265 DEBUG: Create browser window for popup, hwnd=3934188
+- 00:11:49.265 DEBUG: Store browser window, hwnd = 3934188
+- 00:11:49.281 INFO: Focus browser, id=2
+- 00:11:49.281 DEBUG: Centering popup window relative to its parent
+- 00:11:49.875 DEBUG: V8 browser was created
+- 00:11:49.281 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:11:49.875 DEBUG: V8 context created, in context: 1
+- 00:11:49.437 INFO: GET 200 /help.php
+- 00:11:49.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62868/help.php
+- 00:11:52.796 INFO: Focus browser, id=1
+- 00:11:52.796 DEBUG: Before browser is closed, hwnd=3934188
+- 00:11:52.796 DEBUG: Remove browser window, hwnd = 3934188
+- 00:11:52.390 DEBUG: V8 browser was destroyed
+- 00:12:05.453 INFO: Focus browser, id=1
+- 00:12:09.890 INFO: Focus browser, id=1
+- 00:12:15.546 INFO: Focus browser, id=1
+- 00:12:19.468 INFO: POST 200 /index.php
+- 00:12:20.968 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62868/index.php
+- 00:12:20.703 DEBUG: V8 context created, in context: 1
+- 00:12:20.125 INFO: GET 200 /index.php
+- 00:12:20.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62868/index.php
+- 00:12:23.890 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62868/index.php
+- 00:12:23.625 DEBUG: V8 context created, in context: 1
+- 00:12:23.031 INFO: GET 200 /index.php
+- 00:12:23.046 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62868/index.php
+- 00:12:40.218 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62868/index.php
+- 00:12:40.359 INFO: GET 302 /logout.php
+- 00:12:40.078 DEBUG: V8 context created, in context: 1
+- 00:12:40.484 INFO: GET 200 /login.php
+- 00:12:40.484 INFO: JS Console: [Debug] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o(http://127.0.0.1:62868/login.php:0)
+- 00:12:40.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62868/login.php
+- 00:12:42.953 DEBUG: WM_DESTROY
+- 00:12:42.953 DEBUG: Remove browser window, hwnd = 3278274
+- 00:12:42.953 INFO: Stopping Mongoose web server
+- 00:12:42.953 DEBUG: Mongoose webserver stopped immediately
+- 00:12:42.968 DEBUG: Before browser is closed, hwnd=1574088
+- 00:12:42.968 DEBUG: Remove browser window, hwnd = 1574088
+- 00:12:42.968 DEBUG: Browser window not found, hwnd = 1574088
+- 00:12:42.968 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:12:42.968 DEBUG: Quit CEF message loop
+- 00:12:42.031 INFO: Ended application
+- 00:12:42.031 INFO: --------------------------------------------------------
+- 18:37:57.000 INFO: --------------------------------------------------------
+- 18:37:57.000 INFO: Starting application
+- 18:37:57.000 INFO: PHP Desktop version: 130.1
+- 18:37:57.000 INFO: Chromium version: CEF 130.1.15+g34b05bb+chromium-130.0.6723.92
+- 18:37:57.000 INFO: Logging to: C:\MyApp\emd\debug.log
+- 18:37:57.000 INFO: Log level = DEBUG4
+- 18:37:57.000 INFO: Starting Mongoose 3.9c web server
+- 18:37:57.000 INFO: WWW directory: C:\MyApp\emd\www
+- 18:37:57.000 INFO: Index files: index.html,index.php
+- 18:37:57.000 INFO: CGI interpreter: C:\MyApp\emd\php\php-cgi.exe
+- 18:37:57.000 INFO: CGI pattern: **.php$
+- 18:37:57.000 INFO: Hide files patterns: 
+- 18:37:57.000 INFO: CGI environment variables set: TMP=C:\Users\User\AppData\Local\Temp\,TEMP=C:\Users\User\AppData\Local\Temp\,TMPDIR=C:\Users\User\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=130.1
+- 18:37:57.000 INFO: Web server url: http://127.0.0.1:55450/
+- 18:37:57.000 INFO: remote_debugging_port = 50215
+- 18:37:57.000 INFO: Sandbox is disabled
+- 18:37:57.062 DEBUG: Command line string for the browser process: "C:\MyApp\emd\emd.exe" --no-sandbox --lang=en-US --log-file="C:\MyApp\emd\debug.log" --log-severity=disable --remote-debugging-port=50215 --disable-gpu
+- 18:37:58.015 DEBUG: Command line string for the gpu-process process: "C:\MyApp\emd\emd.exe" --type=gpu-process --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --gpu-preferences=UAAAAAAAAADgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --field-trial-handle=2072,i,9573875973229737031,70106395389934328,262144 --variations-seed-version --enable-logging=handle --log-file=2012 --mojo-platform-channel-handle=1964 /prefetch:2
+- 18:37:58.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2308,i,9573875973229737031,70106395389934328,262144 --variations-seed-version --enable-logging=handle --log-file=2372 --mojo-platform-channel-handle=2368 /prefetch:3
+- 18:37:58.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2340,i,9573875973229737031,70106395389934328,262144 --variations-seed-version --enable-logging=handle --log-file=2408 --mojo-platform-channel-handle=2404 /prefetch:8
+- 18:37:58.796 DEBUG: App context initialized
+- 18:37:58.796 INFO: Create main window
+- 18:37:58.796 DEBUG: Window max width/height = 1600/1002
+- 18:37:58.796 DEBUG: Browser window not found, hwnd = 525656
+- 18:37:58.796 DEBUG: Event WM_GETMINMAXINFO: could not fetch browser window
+- 18:37:58.796 DEBUG: Create main browser
+- 18:37:58.796 INFO: Runtime style: alloy
+- 18:37:58.796 DEBUG: Store browser window, hwnd = 525656
+- 18:37:58.796 INFO: Main window was created, hwnd=525656
+- 18:37:58.921 DEBUG: Browser was created
+- 18:37:58.921 DEBUG: Set browser for window
+- 18:37:58.953 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:37:58.000 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=50215 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1760610964375742 --launch-time-ticks=18114487785 --field-trial-handle=3620,i,9573875973229737031,70106395389934328,262144 --variations-seed-version --enable-logging=handle --log-file=3636 --mojo-platform-channel-handle=3632 /prefetch:1
+- 18:37:58.000 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=50215 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1760610964375742 --launch-time-ticks=18114526433 --field-trial-handle=3648,i,9573875973229737031,70106395389934328,262144 --variations-seed-version --enable-logging=handle --log-file=3884 --mojo-platform-channel-handle=3876 /prefetch:1
+- 18:37:59.235 DEBUG: V8 browser was created
+- 18:37:59.625 INFO: GET 302 /
+- 18:37:59.750 INFO: GET 200 /login.php
+- 18:37:59.765 INFO: GET 200 /assets/materialize/css/materialize.min.css
+- 18:37:59.765 INFO: GET 200 /assets/materialize/js/materialize.min.js
+- 18:37:59.750 DEBUG: V8 context created, in context: 1
+- 18:38:00.140 INFO: JS Console: [Debug] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o(http://127.0.0.1:55450/login.php:0)
+- 18:38:00.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55450/login.php
+- 18:38:00.156 INFO: GET 404 /favicon.ico
+- 18:38:01.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=chrome.mojom.ProcessorMetrics --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4304,i,9573875973229737031,70106395389934328,262144 --variations-seed-version --enable-logging=handle --log-file=4292 --mojo-platform-channel-handle=4296 /prefetch:8
+- 18:38:04.890 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55450/login.php
+- 18:38:04.031 INFO: POST 302 /login.php
+- 18:38:05.125 DEBUG: V8 context created, in context: 1
+- 18:38:05.187 INFO: GET 200 /index.php
+- 18:38:05.187 INFO: GET 200 /assets/fontawesome/css/all.min.css
+- 18:38:05.187 INFO: GET 200 /assets/justgage/raphael.min.js
+- 18:38:05.187 INFO: GET 200 /assets/justgage/justgage.js
+- 18:38:05.187 INFO: GET 200 /assets/jquery.min.js
+- 18:38:05.187 INFO: GET 200 /assets/fontawesome/css/brands.min.css
+- 18:38:05.187 INFO: GET 200 /assets/fontawesome/css/fontawesome.min.css
+- 18:38:05.203 INFO: GET 200 /assets/top.js
+- 18:38:05.203 INFO: GET 200 /assets/fontawesome/js/fontawesome.min.js
+- 18:38:05.203 INFO: GET 200 /assets/fontawesome/webfonts/fa-solid-900.woff2
+- 18:38:05.296 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55450/index.php
+- 18:38:18.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55450/index.php
+- 18:38:18.219 DEBUG: V8 context created, in context: 1
+- 18:38:18.281 INFO: GET 200 /index.php
+- 18:38:18.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55450/index.php
+- 18:38:41.343 DEBUG: WM_DESTROY
+- 18:38:41.343 DEBUG: Remove browser window, hwnd = 525656
+- 18:38:41.343 INFO: Stopping Mongoose web server
+- 18:38:41.343 DEBUG: Mongoose webserver stopped immediately
+- 18:38:41.359 DEBUG: Before browser is closed, hwnd=722176
+- 18:38:41.359 DEBUG: Remove browser window, hwnd = 722176
+- 18:38:41.359 DEBUG: Browser window not found, hwnd = 722176
+- 18:38:41.359 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:38:41.359 DEBUG: Quit CEF message loop
+- 18:38:41.437 INFO: Ended application
+- 18:38:41.437 INFO: --------------------------------------------------------
+- 12:17:33.000 INFO: --------------------------------------------------------
+- 12:17:33.000 INFO: Starting application
+- 12:17:33.000 INFO: PHP Desktop version: 130.1
+- 12:17:33.000 INFO: Chromium version: CEF 130.1.15+g34b05bb+chromium-130.0.6723.92
+- 12:17:33.000 INFO: Logging to: C:\MyApp\emd\debug.log
+- 12:17:33.000 INFO: Log level = DEBUG4
+- 12:17:33.000 INFO: Starting Mongoose 3.9c web server
+- 12:17:33.000 INFO: WWW directory: C:\MyApp\emd\www
+- 12:17:33.000 INFO: Index files: index.html,index.php
+- 12:17:33.000 INFO: CGI interpreter: C:\MyApp\emd\php\php-cgi.exe
+- 12:17:33.000 INFO: CGI pattern: **.php$
+- 12:17:33.000 INFO: Hide files patterns: 
+- 12:17:33.000 INFO: CGI environment variables set: TMP=C:\Users\User\AppData\Local\Temp\,TEMP=C:\Users\User\AppData\Local\Temp\,TMPDIR=C:\Users\User\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=130.1
+- 12:17:33.016 INFO: Web server url: http://127.0.0.1:56192/
+- 12:17:33.016 INFO: remote_debugging_port = 52603
+- 12:17:33.016 INFO: Sandbox is disabled
+- 12:17:33.063 DEBUG: Command line string for the browser process: "C:\MyApp\emd\emd.exe" --no-sandbox --lang=en-US --log-file="C:\MyApp\emd\debug.log" --log-severity=disable --remote-debugging-port=52603 --disable-gpu
+- 12:17:33.000 DEBUG: Command line string for the gpu-process process: "C:\MyApp\emd\emd.exe" --type=gpu-process --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --gpu-preferences=UAAAAAAAAADgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --field-trial-handle=2080,i,4067098036917494371,12984147533938180091,262144 --variations-seed-version --enable-logging=handle --log-file=2036 --mojo-platform-channel-handle=2096 /prefetch:2
+- 12:17:33.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2344,i,4067098036917494371,12984147533938180091,262144 --variations-seed-version --enable-logging=handle --log-file=2376 --mojo-platform-channel-handle=2372 /prefetch:3
+- 12:17:33.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2396,i,4067098036917494371,12984147533938180091,262144 --variations-seed-version --enable-logging=handle --log-file=2440 --mojo-platform-channel-handle=2436 /prefetch:8
+- 12:17:33.828 DEBUG: App context initialized
+- 12:17:33.828 INFO: Create main window
+- 12:17:33.828 DEBUG: Window max width/height = 1600/1002
+- 12:17:33.828 DEBUG: Browser window not found, hwnd = 460354
+- 12:17:33.828 DEBUG: Event WM_GETMINMAXINFO: could not fetch browser window
+- 12:17:33.844 DEBUG: Create main browser
+- 12:17:33.844 INFO: Runtime style: alloy
+- 12:17:33.844 DEBUG: Store browser window, hwnd = 460354
+- 12:17:33.844 INFO: Main window was created, hwnd=460354
+- 12:17:34.969 DEBUG: Browser was created
+- 12:17:34.969 DEBUG: Set browser for window
+- 12:17:34.000 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:17:34.000 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=52603 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1762527678042593 --launch-time-ticks=69376060810 --field-trial-handle=3676,i,4067098036917494371,12984147533938180091,262144 --variations-seed-version --enable-logging=handle --log-file=3408 --mojo-platform-channel-handle=3420 /prefetch:1
+- 12:17:34.000 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=52603 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1762527678042593 --launch-time-ticks=69376103195 --field-trial-handle=3700,i,4067098036917494371,12984147533938180091,262144 --variations-seed-version --enable-logging=handle --log-file=3928 --mojo-platform-channel-handle=3920 /prefetch:1
+- 12:17:34.219 DEBUG: V8 browser was created
+- 12:17:34.672 INFO: GET 302 /
+- 12:17:34.813 INFO: GET 200 /login.php
+- 12:17:34.828 INFO: GET 200 /assets/materialize/css/materialize.min.css
+- 12:17:34.828 INFO: GET 200 /assets/materialize/js/materialize.min.js
+- 12:17:34.766 DEBUG: V8 context created, in context: 1
+- 12:17:35.282 INFO: JS Console: [Debug] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o(http://127.0.0.1:56192/login.php:0)
+- 12:17:35.282 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56192/login.php
+- 12:17:35.297 INFO: GET 404 /favicon.ico
+- 12:17:37.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=chrome.mojom.ProcessorMetrics --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4368,i,4067098036917494371,12984147533938180091,262144 --variations-seed-version --enable-logging=handle --log-file=4416 --mojo-platform-channel-handle=4412 /prefetch:8
+- 12:17:38.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56192/login.php
+- 12:17:38.875 INFO: POST 302 /login.php
+- 12:17:39.922 DEBUG: V8 context created, in context: 1
+- 12:17:39.032 INFO: GET 200 /assets/justgage/justgage.js
+- 12:17:39.032 INFO: GET 200 /assets/justgage/raphael.min.js
+- 12:17:39.032 INFO: GET 200 /assets/fontawesome/css/all.min.css
+- 12:17:39.032 INFO: GET 200 /assets/fontawesome/css/brands.min.css
+- 12:17:39.032 INFO: GET 200 /assets/fontawesome/css/fontawesome.min.css
+- 12:17:39.032 INFO: GET 200 /index.php
+- 12:17:39.032 INFO: GET 200 /assets/jquery.min.js
+- 12:17:39.047 INFO: GET 200 /assets/fontawesome/webfonts/fa-solid-900.woff2
+- 12:17:39.047 INFO: GET 200 /assets/fontawesome/js/fontawesome.min.js
+- 12:17:39.047 INFO: GET 200 /assets/top.js
+- 12:17:39.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56192/index.php
+- 12:17:48.594 INFO: Focus browser, id=1
+- 12:18:42.016 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=patch.mojom.FilePatcher --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=5032,i,4067098036917494371,12984147533938180091,262144 --variations-seed-version --enable-logging=handle --log-file=4308 --mojo-platform-channel-handle=1412 /prefetch:8
+- 12:18:42.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4448,i,4067098036917494371,12984147533938180091,262144 --variations-seed-version --enable-logging=handle --log-file=5064 --mojo-platform-channel-handle=5060 /prefetch:8
+- 12:18:52.985 INFO: Focus browser, id=1
+- 12:19:19.703 INFO: Focus browser, id=1
+- 12:19:26.407 INFO: Focus browser, id=1
+- 12:19:36.547 INFO: Focus browser, id=1
+- 12:19:42.907 INFO: POST 200 /index.php
+- 12:19:42.407 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56192/index.php
+- 12:19:42.469 DEBUG: V8 context created, in context: 1
+- 12:19:42.578 INFO: GET 200 /index.php
+- 12:19:42.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56192/index.php
+- 12:19:50.891 INFO: Focus browser, id=1
+- 12:19:57.797 INFO: Focus browser, id=1
+- 12:19:59.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56192/index.php
+- 12:19:59.344 DEBUG: V8 context created, in context: 1
+- 12:19:59.438 INFO: GET 200 /index.php
+- 12:19:59.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56192/index.php
+- 12:20:24.094 INFO: Focus browser, id=1
+- 12:20:29.953 DEBUG: WM_DESTROY
+- 12:20:29.953 DEBUG: Remove browser window, hwnd = 460354
+- 12:20:29.953 INFO: Stopping Mongoose web server
+- 12:20:29.953 DEBUG: Mongoose webserver stopped immediately
+- 12:20:29.172 DEBUG: Before browser is closed, hwnd=1246156
+- 12:20:29.172 DEBUG: Remove browser window, hwnd = 1246156
+- 12:20:29.172 DEBUG: Browser window not found, hwnd = 1246156
+- 12:20:29.172 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:20:29.172 DEBUG: Quit CEF message loop
+- 12:20:29.235 INFO: Ended application
+- 12:20:29.235 INFO: --------------------------------------------------------
+- 23:56:00.015 INFO: --------------------------------------------------------
+- 23:56:00.015 INFO: Starting application
+- 23:56:00.015 INFO: PHP Desktop version: 130.1
+- 23:56:00.015 INFO: Chromium version: CEF 130.1.15+g34b05bb+chromium-130.0.6723.92
+- 23:56:00.015 INFO: Logging to: C:\MyApp\emd\debug.log
+- 23:56:00.015 INFO: Log level = DEBUG4
+- 23:56:00.015 INFO: Starting Mongoose 3.9c web server
+- 23:56:00.015 INFO: WWW directory: C:\MyApp\emd\www
+- 23:56:00.015 INFO: Index files: index.html,index.php
+- 23:56:00.015 INFO: CGI interpreter: C:\MyApp\emd\php\php-cgi.exe
+- 23:56:00.015 INFO: CGI pattern: **.php$
+- 23:56:00.015 INFO: Hide files patterns: 
+- 23:56:00.015 INFO: CGI environment variables set: TMP=C:\Users\User\AppData\Local\Temp\,TEMP=C:\Users\User\AppData\Local\Temp\,TMPDIR=C:\Users\User\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=130.1
+- 23:56:00.015 INFO: Web server url: http://127.0.0.1:56744/
+- 23:56:00.015 INFO: remote_debugging_port = 56801
+- 23:56:00.015 INFO: Sandbox is disabled
+- 23:56:00.078 DEBUG: Command line string for the browser process: "C:\MyApp\emd\emd.exe" --no-sandbox --lang=en-US --log-file="C:\MyApp\emd\debug.log" --log-severity=disable --remote-debugging-port=56801 --disable-gpu
+- 23:56:01.000 DEBUG: Command line string for the gpu-process process: "C:\MyApp\emd\emd.exe" --type=gpu-process --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --gpu-preferences=UAAAAAAAAADgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --field-trial-handle=2156,i,3297516784909618724,6425007630121362863,262144 --variations-seed-version --enable-logging=handle --log-file=2136 --mojo-platform-channel-handle=2152 /prefetch:2
+- 23:56:01.016 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2296,i,3297516784909618724,6425007630121362863,262144 --variations-seed-version --enable-logging=handle --log-file=2340 --mojo-platform-channel-handle=2336 /prefetch:3
+- 23:56:01.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2416,i,3297516784909618724,6425007630121362863,262144 --variations-seed-version --enable-logging=handle --log-file=2436 --mojo-platform-channel-handle=2432 /prefetch:8
+- 23:56:01.750 DEBUG: App context initialized
+- 23:56:01.750 INFO: Create main window
+- 23:56:01.750 DEBUG: Window max width/height = 1600/1002
+- 23:56:01.750 DEBUG: Browser window not found, hwnd = 4851016
+- 23:56:01.750 DEBUG: Event WM_GETMINMAXINFO: could not fetch browser window
+- 23:56:01.750 DEBUG: Create main browser
+- 23:56:01.750 INFO: Runtime style: alloy
+- 23:56:01.750 DEBUG: Store browser window, hwnd = 4851016
+- 23:56:01.765 INFO: Main window was created, hwnd=4851016
+- 23:56:01.890 DEBUG: Browser was created
+- 23:56:01.890 DEBUG: Set browser for window
+- 23:56:01.922 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:56:01.016 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=56801 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1763491514191699 --launch-time-ticks=11447426068 --field-trial-handle=3648,i,3297516784909618724,6425007630121362863,262144 --variations-seed-version --enable-logging=handle --log-file=3884 --mojo-platform-channel-handle=3876 /prefetch:1
+- 23:56:01.016 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=56801 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1763491514191699 --launch-time-ticks=11447379960 --field-trial-handle=3620,i,3297516784909618724,6425007630121362863,262144 --variations-seed-version --enable-logging=handle --log-file=3636 --mojo-platform-channel-handle=3632 /prefetch:1
+- 23:56:01.235 DEBUG: V8 browser was created
+- 23:56:02.468 INFO: GET 302 /
+- 23:56:02.593 INFO: GET 200 /login.php
+- 23:56:02.609 INFO: GET 200 /assets/materialize/css/materialize.min.css
+- 23:56:02.609 INFO: GET 200 /assets/materialize/js/materialize.min.js
+- 23:56:02.610 DEBUG: V8 context created, in context: 1
+- 23:56:02.906 INFO: JS Console: [Debug] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o(http://127.0.0.1:56744/login.php:0)
+- 23:56:02.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56744/login.php
+- 23:56:02.922 INFO: GET 404 /favicon.ico
+- 23:56:04.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=chrome.mojom.ProcessorMetrics --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4316,i,3297516784909618724,6425007630121362863,262144 --variations-seed-version --enable-logging=handle --log-file=4340 --mojo-platform-channel-handle=4336 /prefetch:8
+- 23:56:05.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4356,i,3297516784909618724,6425007630121362863,262144 --variations-seed-version --enable-logging=handle --log-file=4364 --mojo-platform-channel-handle=4352 /prefetch:8
+- 23:56:05.016 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4332,i,3297516784909618724,6425007630121362863,262144 --variations-seed-version --enable-logging=handle --log-file=4684 --mojo-platform-channel-handle=4288 /prefetch:8
+- 23:56:05.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4360,i,3297516784909618724,6425007630121362863,262144 --variations-seed-version --enable-logging=handle --log-file=4844 --mojo-platform-channel-handle=4352 /prefetch:8
+- 23:56:23.375 INFO: Focus browser, id=1
+- 23:56:26.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56744/login.php
+- 23:56:26.093 INFO: POST 302 /login.php
+- 23:56:26.203 DEBUG: V8 context created, in context: 1
+- 23:56:26.234 INFO: GET 200 /index.php
+- 23:56:26.234 INFO: GET 200 /assets/justgage/raphael.min.js
+- 23:56:26.234 INFO: GET 200 /assets/fontawesome/css/all.min.css
+- 23:56:26.234 INFO: GET 200 /assets/fontawesome/css/brands.min.css
+- 23:56:26.234 INFO: GET 200 /assets/fontawesome/css/fontawesome.min.css
+- 23:56:26.234 INFO: GET 200 /assets/justgage/justgage.js
+- 23:56:26.234 INFO: GET 200 /assets/jquery.min.js
+- 23:56:26.250 INFO: GET 200 /assets/top.js
+- 23:56:26.250 INFO: GET 200 /assets/fontawesome/webfonts/fa-solid-900.woff2
+- 23:56:26.250 INFO: GET 200 /assets/fontawesome/js/fontawesome.min.js
+- 23:56:26.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56744/index.php
+- 23:56:30.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56744/index.php
+- 23:56:30.547 DEBUG: V8 context created, in context: 1
+- 23:56:30.562 INFO: GET 200 /index.php
+- 23:56:30.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56744/index.php
+- 23:56:39.125 DEBUG: WM_DESTROY
+- 23:56:39.125 DEBUG: Remove browser window, hwnd = 4851016
+- 23:56:39.125 INFO: Stopping Mongoose web server
+- 23:56:39.125 DEBUG: Mongoose webserver stopped immediately
+- 23:56:39.125 DEBUG: Before browser is closed, hwnd=2950418
+- 23:56:39.125 DEBUG: Remove browser window, hwnd = 2950418
+- 23:56:39.125 DEBUG: Browser window not found, hwnd = 2950418
+- 23:56:39.140 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:56:39.140 DEBUG: Quit CEF message loop
+- 23:56:39.218 INFO: Ended application
+- 23:56:39.218 INFO: --------------------------------------------------------
+- 19:36:00.000 INFO: --------------------------------------------------------
+- 19:36:00.000 INFO: Starting application
+- 19:36:00.000 INFO: PHP Desktop version: 130.1
+- 19:36:00.000 INFO: Chromium version: CEF 130.1.15+g34b05bb+chromium-130.0.6723.92
+- 19:36:00.000 INFO: Logging to: C:\MyApp\emd\debug.log
+- 19:36:00.000 INFO: Log level = DEBUG4
+- 19:36:00.000 INFO: Starting Mongoose 3.9c web server
+- 19:36:00.000 INFO: WWW directory: C:\MyApp\emd\www
+- 19:36:00.000 INFO: Index files: index.html,index.php
+- 19:36:00.000 INFO: CGI interpreter: C:\MyApp\emd\php\php-cgi.exe
+- 19:36:00.000 INFO: CGI pattern: **.php$
+- 19:36:00.000 INFO: Hide files patterns: 
+- 19:36:00.000 INFO: CGI environment variables set: TMP=C:\Users\User\AppData\Local\Temp\,TEMP=C:\Users\User\AppData\Local\Temp\,TMPDIR=C:\Users\User\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=130.1
+- 19:36:00.000 INFO: Web server url: http://127.0.0.1:59956/
+- 19:36:00.000 INFO: remote_debugging_port = 56423
+- 19:36:00.000 INFO: Sandbox is disabled
+- 19:36:00.000 DEBUG: Command line string for the browser process: "C:\MyApp\emd\emd.exe" --no-sandbox --lang=en-US --log-file="C:\MyApp\emd\debug.log" --log-severity=disable --remote-debugging-port=56423 --disable-gpu
+- 19:36:00.109 DEBUG: App context initialized
+- 19:36:00.109 INFO: Create main window
+- 19:36:00.109 DEBUG: Window max width/height = 1600/1002
+- 19:36:00.109 DEBUG: Browser window not found, hwnd = 328414
+- 19:36:00.109 DEBUG: Event WM_GETMINMAXINFO: could not fetch browser window
+- 19:36:00.109 DEBUG: Create main browser
+- 19:36:00.109 INFO: Runtime style: alloy
+- 19:36:00.109 DEBUG: Store browser window, hwnd = 328414
+- 19:36:00.125 INFO: Main window was created, hwnd=328414
+- 19:36:00.000 DEBUG: Command line string for the gpu-process process: "C:\MyApp\emd\emd.exe" --type=gpu-process --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --gpu-preferences=UAAAAAAAAADgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --field-trial-handle=2108,i,4936420739672587913,5942713927487585579,262144 --variations-seed-version --enable-logging=handle --log-file=2144 --mojo-platform-channel-handle=1992 /prefetch:2
+- 19:36:00.203 DEBUG: Browser was created
+- 19:36:00.203 DEBUG: Set browser for window
+- 19:36:00.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2204,i,4936420739672587913,5942713927487585579,262144 --variations-seed-version --enable-logging=handle --log-file=2756 --mojo-platform-channel-handle=2836 /prefetch:3
+- 19:36:00.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2344,i,4936420739672587913,5942713927487585579,262144 --variations-seed-version --enable-logging=handle --log-file=3416 --mojo-platform-channel-handle=2760 /prefetch:8
+- 19:36:00.265 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:36:00.016 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=56423 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1765611837020952 --launch-time-ticks=35523599875 --field-trial-handle=3612,i,4936420739672587913,5942713927487585579,262144 --variations-seed-version --enable-logging=handle --log-file=3628 --mojo-platform-channel-handle=3624 /prefetch:1
+- 19:36:00.000 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=56423 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1765611837020952 --launch-time-ticks=35523643738 --field-trial-handle=3656,i,4936420739672587913,5942713927487585579,262144 --variations-seed-version --enable-logging=handle --log-file=3816 --mojo-platform-channel-handle=3812 /prefetch:1
+- 19:36:01.312 DEBUG: V8 browser was created
+- 19:36:01.015 INFO: GET 302 /
+- 19:36:01.140 INFO: GET 200 /login.php
+- 19:36:01.156 INFO: GET 200 /assets/materialize/css/materialize.min.css
+- 19:36:01.156 INFO: GET 200 /assets/materialize/js/materialize.min.js
+- 19:36:01.843 DEBUG: V8 context created, in context: 1
+- 19:36:01.500 INFO: JS Console: [Debug] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o(http://127.0.0.1:59956/login.php:0)
+- 19:36:01.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59956/login.php
+- 19:36:01.515 INFO: GET 404 /favicon.ico
+- 19:36:03.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=chrome.mojom.ProcessorMetrics --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4324,i,4936420739672587913,5942713927487585579,262144 --variations-seed-version --enable-logging=handle --log-file=4352 --mojo-platform-channel-handle=4348 /prefetch:8
+- 19:36:03.609 DEBUG: WM_DESTROY
+- 19:36:03.609 DEBUG: Remove browser window, hwnd = 328414
+- 19:36:03.609 INFO: Stopping Mongoose web server
+- 19:36:03.609 DEBUG: Mongoose webserver stopped immediately
+- 19:36:03.609 DEBUG: Before browser is closed, hwnd=459538
+- 19:36:03.609 DEBUG: Remove browser window, hwnd = 459538
+- 19:36:03.609 DEBUG: Browser window not found, hwnd = 459538
+- 19:36:03.609 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:36:03.609 DEBUG: Quit CEF message loop
+- 19:36:04.703 INFO: Ended application
+- 19:36:04.703 INFO: --------------------------------------------------------
+- 19:36:17.000 INFO: --------------------------------------------------------
+- 19:36:17.000 INFO: Starting application
+- 19:36:17.000 INFO: PHP Desktop version: 130.1
+- 19:36:17.000 INFO: Chromium version: CEF 130.1.15+g34b05bb+chromium-130.0.6723.92
+- 19:36:17.000 INFO: Logging to: C:\MyApp\emd\debug.log
+- 19:36:17.000 INFO: Log level = DEBUG4
+- 19:36:17.000 INFO: Starting Mongoose 3.9c web server
+- 19:36:17.000 INFO: WWW directory: C:\MyApp\emd\www
+- 19:36:17.000 INFO: Index files: index.html,index.php
+- 19:36:17.000 INFO: CGI interpreter: C:\MyApp\emd\php\php-cgi.exe
+- 19:36:17.000 INFO: CGI pattern: **.php$
+- 19:36:17.000 INFO: Hide files patterns: 
+- 19:36:17.000 INFO: CGI environment variables set: TMP=C:\Users\User\AppData\Local\Temp\,TEMP=C:\Users\User\AppData\Local\Temp\,TMPDIR=C:\Users\User\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=130.1
+- 19:36:17.000 INFO: Web server url: http://127.0.0.1:59966/
+- 19:36:17.000 INFO: remote_debugging_port = 54023
+- 19:36:17.000 INFO: Sandbox is disabled
+- 19:36:17.000 DEBUG: Command line string for the browser process: "C:\MyApp\emd\emd.exe" --no-sandbox --lang=en-US --log-file="C:\MyApp\emd\debug.log" --log-severity=disable --remote-debugging-port=54023 --disable-gpu
+- 19:36:17.109 DEBUG: App context initialized
+- 19:36:17.109 INFO: Create main window
+- 19:36:17.109 DEBUG: Window max width/height = 1600/1002
+- 19:36:17.109 DEBUG: Browser window not found, hwnd = 328380
+- 19:36:17.109 DEBUG: Event WM_GETMINMAXINFO: could not fetch browser window
+- 19:36:17.109 DEBUG: Create main browser
+- 19:36:17.109 INFO: Runtime style: alloy
+- 19:36:17.109 DEBUG: Store browser window, hwnd = 328380
+- 19:36:17.125 INFO: Main window was created, hwnd=328380
+- 19:36:17.156 DEBUG: Browser was created
+- 19:36:17.156 DEBUG: Set browser for window
+- 19:36:17.156 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:36:17.000 DEBUG: Command line string for the gpu-process process: "C:\MyApp\emd\emd.exe" --type=gpu-process --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --gpu-preferences=UAAAAAAAAADgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --field-trial-handle=2116,i,11354472279610413023,13098100115892216768,262144 --variations-seed-version --enable-logging=handle --log-file=2028 --mojo-platform-channel-handle=2096 /prefetch:2
+- 19:36:17.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2236,i,11354472279610413023,13098100115892216768,262144 --variations-seed-version --enable-logging=handle --log-file=2652 --mojo-platform-channel-handle=2812 /prefetch:3
+- 19:36:17.015 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2356,i,11354472279610413023,13098100115892216768,262144 --variations-seed-version --enable-logging=handle --log-file=3904 --mojo-platform-channel-handle=3876 /prefetch:8
+- 19:36:17.000 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=54023 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1765611837022177 --launch-time-ticks=35540881872 --field-trial-handle=3520,i,11354472279610413023,13098100115892216768,262144 --variations-seed-version --enable-logging=handle --log-file=3956 --mojo-platform-channel-handle=3948 /prefetch:1
+- 19:36:18.000 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=54023 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1765611837022177 --launch-time-ticks=35540923091 --field-trial-handle=3540,i,11354472279610413023,13098100115892216768,262144 --variations-seed-version --enable-logging=handle --log-file=3984 --mojo-platform-channel-handle=3976 /prefetch:1
+- 19:36:18.032 DEBUG: V8 browser was created
+- 19:36:18.468 INFO: GET 302 /
+- 19:36:18.235 DEBUG: V8 context created, in context: 1
+- 19:36:18.578 INFO: GET 200 /assets/materialize/css/materialize.min.css
+- 19:36:18.578 INFO: GET 200 /assets/materialize/js/materialize.min.js
+- 19:36:18.593 INFO: GET 200 /login.php
+- 19:36:18.625 INFO: JS Console: [Debug] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o(http://127.0.0.1:59966/login.php:0)
+- 19:36:18.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59966/login.php
+- 19:36:18.640 INFO: GET 404 /favicon.ico
+- 19:36:20.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=chrome.mojom.ProcessorMetrics --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4400,i,11354472279610413023,13098100115892216768,262144 --variations-seed-version --enable-logging=handle --log-file=4236 --mojo-platform-channel-handle=2808 /prefetch:8
+- 19:36:21.015 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4864,i,11354472279610413023,13098100115892216768,262144 --variations-seed-version --enable-logging=handle --log-file=4928 --mojo-platform-channel-handle=4924 /prefetch:8
+- 19:36:21.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4912,i,11354472279610413023,13098100115892216768,262144 --variations-seed-version --enable-logging=handle --log-file=4940 --mojo-platform-channel-handle=4932 /prefetch:8
+- 19:36:23.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:59966/login.php
+- 19:36:23.797 INFO: POST 302 /login.php
+- 19:36:23.594 DEBUG: V8 context created, in context: 1
+- 19:36:23.937 INFO: GET 200 /index.php
+- 19:36:23.953 INFO: GET 200 /assets/justgage/raphael.min.js
+- 19:36:23.953 INFO: GET 200 /assets/fontawesome/css/fontawesome.min.css
+- 19:36:23.953 INFO: GET 200 /assets/justgage/justgage.js
+- 19:36:23.953 INFO: GET 200 /assets/fontawesome/css/brands.min.css
+- 19:36:23.953 INFO: GET 200 /assets/fontawesome/css/all.min.css
+- 19:36:23.953 INFO: GET 200 /assets/jquery.min.js
+- 19:36:23.968 INFO: GET 200 /assets/fontawesome/webfonts/fa-solid-900.woff2
+- 19:36:23.968 INFO: GET 200 /assets/top.js
+- 19:36:23.968 INFO: GET 200 /assets/fontawesome/js/fontawesome.min.js
+- 19:36:23.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59966/index.php
+- 19:36:24.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=patch.mojom.FilePatcher --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=5076,i,11354472279610413023,13098100115892216768,262144 --variations-seed-version --enable-logging=handle --log-file=4904 --mojo-platform-channel-handle=5020 /prefetch:8
+- 19:36:24.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4924,i,11354472279610413023,13098100115892216768,262144 --variations-seed-version --enable-logging=handle --log-file=4968 --mojo-platform-channel-handle=4972 /prefetch:8
+- 19:36:24.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4988,i,11354472279610413023,13098100115892216768,262144 --variations-seed-version --enable-logging=handle --log-file=4976 --mojo-platform-channel-handle=5020 /prefetch:8
+- 19:36:25.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4972,i,11354472279610413023,13098100115892216768,262144 --variations-seed-version --enable-logging=handle --log-file=5024 --mojo-platform-channel-handle=4920 /prefetch:8
+- 19:36:34.312 INFO: Focus browser, id=1
+- 19:36:50.859 INFO: Focus browser, id=1
+- 19:37:00.734 INFO: Focus browser, id=1
+- 19:37:05.922 INFO: POST 200 /index.php
+- 19:37:06.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:59966/index.php
+- 19:37:06.235 DEBUG: V8 context created, in context: 1
+- 19:37:06.578 INFO: GET 200 /index.php
+- 19:37:06.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59966/index.php
+- 19:37:12.937 INFO: Focus browser, id=1
+- 19:37:22.062 INFO: Focus browser, id=1
+- 19:37:29.422 INFO: Focus browser, id=1
+- 19:37:33.843 INFO: POST 200 /index.php
+- 19:37:34.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:59966/index.php
+- 19:37:34.157 DEBUG: V8 context created, in context: 1
+- 19:37:34.515 INFO: GET 200 /index.php
+- 19:37:34.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59966/index.php
+- 19:37:35.593 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:59966/index.php
+- 19:37:35.375 DEBUG: V8 context created, in context: 1
+- 19:37:35.718 INFO: GET 200 /index.php
+- 19:37:35.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59966/index.php
+- 19:37:38.016 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=patch.mojom.FilePatcher --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4964,i,11354472279610413023,13098100115892216768,262144 --variations-seed-version --enable-logging=handle --log-file=4984 --mojo-platform-channel-handle=4488 /prefetch:8
+- 19:37:38.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4488,i,11354472279610413023,13098100115892216768,262144 --variations-seed-version --enable-logging=handle --log-file=5132 --mojo-platform-channel-handle=4984 /prefetch:8
+- 19:37:43.390 INFO: Focus browser, id=1
+- 19:38:02.234 DEBUG: WM_DESTROY
+- 19:38:02.234 DEBUG: Remove browser window, hwnd = 328380
+- 19:38:02.234 INFO: Stopping Mongoose web server
+- 19:38:02.234 DEBUG: Mongoose webserver stopped immediately
+- 19:38:02.234 DEBUG: Before browser is closed, hwnd=328374
+- 19:38:02.234 DEBUG: Remove browser window, hwnd = 328374
+- 19:38:02.234 DEBUG: Browser window not found, hwnd = 328374
+- 19:38:02.234 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:38:02.234 DEBUG: Quit CEF message loop
+- 19:38:03.328 INFO: Ended application
+- 19:38:03.328 INFO: --------------------------------------------------------
+- 09:31:25.000 INFO: --------------------------------------------------------
+- 09:31:25.000 INFO: Starting application
+- 09:31:25.000 INFO: PHP Desktop version: 130.1
+- 09:31:25.000 INFO: Chromium version: CEF 130.1.15+g34b05bb+chromium-130.0.6723.92
+- 09:31:25.000 INFO: Logging to: C:\MyApp\emd\debug.log
+- 09:31:25.000 INFO: Log level = DEBUG4
+- 09:31:25.000 INFO: Starting Mongoose 3.9c web server
+- 09:31:25.000 INFO: WWW directory: C:\MyApp\emd\www
+- 09:31:25.000 INFO: Index files: index.html,index.php
+- 09:31:25.000 INFO: CGI interpreter: C:\MyApp\emd\php\php-cgi.exe
+- 09:31:25.000 INFO: CGI pattern: **.php$
+- 09:31:25.000 INFO: Hide files patterns: 
+- 09:31:25.016 INFO: CGI environment variables set: TMP=C:\Users\User\AppData\Local\Temp\,TEMP=C:\Users\User\AppData\Local\Temp\,TMPDIR=C:\Users\User\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=130.1
+- 09:31:25.016 INFO: Web server url: http://127.0.0.1:50380/
+- 09:31:25.016 INFO: remote_debugging_port = 57807
+- 09:31:25.016 INFO: Sandbox is disabled
+- 09:31:25.016 DEBUG: Command line string for the browser process: "C:\MyApp\emd\emd.exe" --no-sandbox --lang=en-US --log-file="C:\MyApp\emd\debug.log" --log-severity=disable --remote-debugging-port=57807 --disable-gpu
+- 09:31:25.125 DEBUG: App context initialized
+- 09:31:25.125 INFO: Create main window
+- 09:31:25.125 DEBUG: Window max width/height = 1600/1002
+- 09:31:25.125 DEBUG: Browser window not found, hwnd = 132584
+- 09:31:25.125 DEBUG: Event WM_GETMINMAXINFO: could not fetch browser window
+- 09:31:25.125 DEBUG: Create main browser
+- 09:31:25.125 INFO: Runtime style: alloy
+- 09:31:25.125 DEBUG: Store browser window, hwnd = 132584
+- 09:31:25.141 INFO: Main window was created, hwnd=132584
+- 09:31:25.157 DEBUG: Browser was created
+- 09:31:25.157 DEBUG: Set browser for window
+- 09:31:25.172 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:31:25.016 DEBUG: Command line string for the gpu-process process: "C:\MyApp\emd\emd.exe" --type=gpu-process --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --gpu-preferences=UAAAAAAAAADgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --field-trial-handle=2276,i,7424744519953000406,8456607265129811312,262144 --variations-seed-version --enable-logging=handle --log-file=2004 --mojo-platform-channel-handle=2272 /prefetch:2
+- 09:31:25.015 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2160,i,7424744519953000406,8456607265129811312,262144 --variations-seed-version --enable-logging=handle --log-file=2920 --mojo-platform-channel-handle=2912 /prefetch:3
+- 09:31:25.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2356,i,7424744519953000406,8456607265129811312,262144 --variations-seed-version --enable-logging=handle --log-file=3808 --mojo-platform-channel-handle=2788 /prefetch:8
+- 09:31:25.016 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=57807 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1768029746104237 --launch-time-ticks=539602719 --field-trial-handle=3532,i,7424744519953000406,8456607265129811312,262144 --variations-seed-version --enable-logging=handle --log-file=3972 --mojo-platform-channel-handle=3948 /prefetch:1
+- 09:31:25.000 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=57807 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1768029746104237 --launch-time-ticks=539642626 --field-trial-handle=3560,i,7424744519953000406,8456607265129811312,262144 --variations-seed-version --enable-logging=handle --log-file=4016 --mojo-platform-channel-handle=4008 /prefetch:1
+- 09:31:26.313 DEBUG: V8 browser was created
+- 09:31:26.922 INFO: GET 302 /
+- 09:31:26.063 INFO: GET 200 /login.php
+- 09:31:26.063 INFO: GET 200 /assets/materialize/js/materialize.min.js
+- 09:31:26.063 INFO: GET 200 /assets/materialize/css/materialize.min.css
+- 09:31:26.766 DEBUG: V8 context created, in context: 1
+- 09:31:27.563 INFO: JS Console: [Debug] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o(http://127.0.0.1:50380/login.php:0)
+- 09:31:27.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50380/login.php
+- 09:31:27.578 INFO: GET 404 /favicon.ico
+- 09:31:28.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=chrome.mojom.ProcessorMetrics --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4424,i,7424744519953000406,8456607265129811312,262144 --variations-seed-version --enable-logging=handle --log-file=4380 --mojo-platform-channel-handle=4292 /prefetch:8
+- 09:31:29.015 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=patch.mojom.FilePatcher --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4300,i,7424744519953000406,8456607265129811312,262144 --variations-seed-version --enable-logging=handle --log-file=4800 --mojo-platform-channel-handle=4816 /prefetch:8
+- 09:31:30.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4324,i,7424744519953000406,8456607265129811312,262144 --variations-seed-version --enable-logging=handle --log-file=4436 --mojo-platform-channel-handle=4208 /prefetch:8
+- 09:31:30.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50380/login.php
+- 09:31:30.828 INFO: POST 302 /login.php
+- 09:31:30.641 DEBUG: V8 context created, in context: 1
+- 09:31:30.969 INFO: GET 200 /index.php
+- 09:31:30.985 INFO: GET 200 /assets/fontawesome/css/fontawesome.min.css
+- 09:31:30.985 INFO: GET 200 /assets/fontawesome/css/all.min.css
+- 09:31:30.985 INFO: GET 200 /assets/justgage/justgage.js
+- 09:31:30.985 INFO: GET 200 /assets/fontawesome/css/brands.min.css
+- 09:31:30.985 INFO: GET 200 /assets/jquery.min.js
+- 09:31:30.985 INFO: GET 200 /assets/justgage/raphael.min.js
+- 09:31:30.985 INFO: GET 200 /assets/top.js
+- 09:31:30.985 INFO: GET 200 /assets/fontawesome/webfonts/fa-solid-900.woff2
+- 09:31:30.985 INFO: GET 200 /assets/fontawesome/js/fontawesome.min.js
+- 09:31:30.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50380/index.php
+- 09:31:30.016 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4800,i,7424744519953000406,8456607265129811312,262144 --variations-seed-version --enable-logging=handle --log-file=5052 --mojo-platform-channel-handle=4980 /prefetch:8
+- 09:31:33.015 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=patch.mojom.FilePatcher --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=5324,i,7424744519953000406,8456607265129811312,262144 --variations-seed-version --enable-logging=handle --log-file=5216 --mojo-platform-channel-handle=5072 /prefetch:8
+- 09:31:33.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=5312,i,7424744519953000406,8456607265129811312,262144 --variations-seed-version --enable-logging=handle --log-file=5152 --mojo-platform-channel-handle=5320 /prefetch:8
+- 09:31:34.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=5304,i,7424744519953000406,8456607265129811312,262144 --variations-seed-version --enable-logging=handle --log-file=5288 --mojo-platform-channel-handle=5292 /prefetch:8
+- 09:31:34.016 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4944,i,7424744519953000406,8456607265129811312,262144 --variations-seed-version --enable-logging=handle --log-file=4904 --mojo-platform-channel-handle=5316 /prefetch:8
+- 09:32:01.219 INFO: POST 200 /index.php
+- 09:32:02.735 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50380/index.php
+- 09:32:02.532 DEBUG: V8 context created, in context: 1
+- 09:32:02.860 INFO: GET 200 /index.php
+- 09:32:02.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50380/index.php
+- 09:32:45.297 INFO: Focus browser, id=1
+- 09:32:59.297 INFO: Focus browser, id=1
+- 09:33:02.000 INFO: Focus browser, id=1
+- 09:33:07.266 INFO: Focus browser, id=1
+- 09:33:09.188 DEBUG: WM_DESTROY
+- 09:33:09.188 DEBUG: Remove browser window, hwnd = 132584
+- 09:33:09.188 INFO: Stopping Mongoose web server
+- 09:33:09.188 DEBUG: Mongoose webserver stopped immediately
+- 09:33:09.235 DEBUG: Before browser is closed, hwnd=328852
+- 09:33:09.235 DEBUG: Remove browser window, hwnd = 328852
+- 09:33:09.235 DEBUG: Browser window not found, hwnd = 328852
+- 09:33:09.235 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:33:09.235 DEBUG: Quit CEF message loop
+- 09:33:09.313 INFO: Ended application
+- 09:33:09.313 INFO: --------------------------------------------------------
+- 19:07:44.000 INFO: --------------------------------------------------------
+- 19:07:44.000 INFO: Starting application
+- 19:07:44.000 INFO: PHP Desktop version: 130.1
+- 19:07:44.000 INFO: Chromium version: CEF 130.1.15+g34b05bb+chromium-130.0.6723.92
+- 19:07:44.000 INFO: Logging to: C:\MyApp\emd\debug.log
+- 19:07:44.000 INFO: Log level = DEBUG4
+- 19:07:44.000 INFO: Starting Mongoose 3.9c web server
+- 19:07:44.000 INFO: WWW directory: C:\MyApp\emd\www
+- 19:07:44.000 INFO: Index files: index.html,index.php
+- 19:07:44.000 INFO: CGI interpreter: C:\MyApp\emd\php\php-cgi.exe
+- 19:07:44.000 INFO: CGI pattern: **.php$
+- 19:07:44.000 INFO: Hide files patterns: 
+- 19:07:44.000 INFO: CGI environment variables set: TMP=C:\Users\User\AppData\Local\Temp\,TEMP=C:\Users\User\AppData\Local\Temp\,TMPDIR=C:\Users\User\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=130.1
+- 19:07:44.000 INFO: Web server url: http://127.0.0.1:64088/
+- 19:07:44.000 INFO: remote_debugging_port = 57796
+- 19:07:44.000 INFO: Sandbox is disabled
+- 19:07:44.000 DEBUG: Command line string for the browser process: "C:\MyApp\emd\emd.exe" --no-sandbox --lang=en-US --log-file="C:\MyApp\emd\debug.log" --log-severity=disable --remote-debugging-port=57796 --disable-gpu
+- 19:07:45.110 DEBUG: App context initialized
+- 19:07:45.016 DEBUG: Command line string for the gpu-process process: "C:\MyApp\emd\emd.exe" --type=gpu-process --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --gpu-preferences=UAAAAAAAAADgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --field-trial-handle=2248,i,16289896299810105572,15442018310140871888,262144 --variations-seed-version --enable-logging=handle --log-file=2016 --mojo-platform-channel-handle=2244 /prefetch:2
+- 19:07:45.172 DEBUG: Window max width/height = 1600/1002
+- 19:07:45.172 DEBUG: Browser window not found, hwnd = 1639396
+- 19:07:45.172 DEBUG: Event WM_GETMINMAXINFO: could not fetch browser window
+- 19:07:45.172 DEBUG: Create main browser
+- 19:07:45.172 INFO: Runtime style: alloy
+- 19:07:45.172 DEBUG: Store browser window, hwnd = 1639396
+- 19:07:45.172 INFO: Main window was created, hwnd=1639396
+- 19:07:45.203 DEBUG: Browser was created
+- 19:07:45.203 DEBUG: Set browser for window
+- 19:07:45.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:07:45.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2312,i,16289896299810105572,15442018310140871888,262144 --variations-seed-version --enable-logging=handle --log-file=2644 --mojo-platform-channel-handle=2552 /prefetch:3
+- 19:07:45.016 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2424,i,16289896299810105572,15442018310140871888,262144 --variations-seed-version --enable-logging=handle --log-file=3504 --mojo-platform-channel-handle=3496 /prefetch:8
+- 19:07:45.000 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=57796 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1769238170629044 --launch-time-ticks=36294563625 --field-trial-handle=3620,i,16289896299810105572,15442018310140871888,262144 --variations-seed-version --enable-logging=handle --log-file=4048 --mojo-platform-channel-handle=4040 /prefetch:1
+- 19:07:45.000 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --start-stack-profiler --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=57796 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1769238170629044 --launch-time-ticks=36294523969 --field-trial-handle=3592,i,16289896299810105572,15442018310140871888,262144 --variations-seed-version --enable-logging=handle --log-file=4008 --mojo-platform-channel-handle=3980 /prefetch:1
+- 19:07:45.343 DEBUG: V8 browser was created
+- 19:07:45.031 INFO: GET 302 /
+- 19:07:46.172 INFO: GET 200 /login.php
+- 19:07:46.172 INFO: GET 200 /assets/materialize/css/materialize.min.css
+- 19:07:46.188 INFO: GET 200 /assets/materialize/js/materialize.min.js
+- 19:07:46.843 DEBUG: V8 context created, in context: 1
+- 19:07:46.688 INFO: JS Console: [Debug] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o(http://127.0.0.1:64088/login.php:0)
+- 19:07:46.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64088/login.php
+- 19:07:46.703 INFO: GET 404 /favicon.ico
+- 19:07:48.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=chrome.mojom.ProcessorMetrics --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4440,i,16289896299810105572,15442018310140871888,262144 --variations-seed-version --enable-logging=handle --log-file=4456 --mojo-platform-channel-handle=4452 /prefetch:8
+- 19:07:49.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=patch.mojom.FilePatcher --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4788,i,16289896299810105572,15442018310140871888,262144 --variations-seed-version --enable-logging=handle --log-file=4476 --mojo-platform-channel-handle=4336 /prefetch:8
+- 19:07:49.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4336,i,16289896299810105572,15442018310140871888,262144 --variations-seed-version --enable-logging=handle --log-file=5052 --mojo-platform-channel-handle=4476 /prefetch:8
+- 19:07:50.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=5076,i,16289896299810105572,15442018310140871888,262144 --variations-seed-version --enable-logging=handle --log-file=5000 --mojo-platform-channel-handle=5068 /prefetch:8
+- 19:07:51.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:64088/login.php
+- 19:07:51.610 INFO: POST 302 /login.php
+- 19:07:51.390 DEBUG: V8 context created, in context: 1
+- 19:07:51.750 INFO: GET 200 /assets/justgage/raphael.min.js
+- 19:07:51.750 INFO: GET 200 /index.php
+- 19:07:51.750 INFO: GET 200 /assets/fontawesome/css/fontawesome.min.css
+- 19:07:51.750 INFO: GET 200 /assets/fontawesome/css/all.min.css
+- 19:07:51.750 INFO: GET 200 /assets/fontawesome/css/brands.min.css
+- 19:07:51.750 INFO: GET 200 /assets/justgage/justgage.js
+- 19:07:51.766 INFO: GET 200 /assets/jquery.min.js
+- 19:07:51.766 INFO: GET 200 /assets/fontawesome/webfonts/fa-solid-900.woff2
+- 19:07:51.766 INFO: GET 200 /assets/fontawesome/js/fontawesome.min.js
+- 19:07:51.766 INFO: GET 200 /assets/top.js
+- 19:07:51.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64088/index.php
+- 19:08:04.953 DEBUG: WM_DESTROY
+- 19:08:04.953 DEBUG: Remove browser window, hwnd = 1639396
+- 19:08:04.953 INFO: Stopping Mongoose web server
+- 19:08:04.953 DEBUG: Mongoose webserver stopped immediately
+- 19:08:04.985 DEBUG: Before browser is closed, hwnd=3343792
+- 19:08:04.985 DEBUG: Remove browser window, hwnd = 3343792
+- 19:08:04.985 DEBUG: Browser window not found, hwnd = 3343792
+- 19:08:04.985 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:08:04.985 DEBUG: Quit CEF message loop
+- 19:08:04.078 INFO: Ended application
+- 19:08:04.078 INFO: --------------------------------------------------------
+- 19:11:31.000 INFO: --------------------------------------------------------
+- 19:11:31.000 INFO: Starting application
+- 19:11:31.000 INFO: PHP Desktop version: 130.1
+- 19:11:31.000 INFO: Chromium version: CEF 130.1.15+g34b05bb+chromium-130.0.6723.92
+- 19:11:31.000 INFO: Logging to: C:\MyApp\emd\debug.log
+- 19:11:31.000 INFO: Log level = DEBUG4
+- 19:11:31.000 INFO: Starting Mongoose 3.9c web server
+- 19:11:31.000 INFO: WWW directory: C:\MyApp\emd\www
+- 19:11:31.000 INFO: Index files: index.html,index.php
+- 19:11:31.000 INFO: CGI interpreter: C:\MyApp\emd\php\php-cgi.exe
+- 19:11:31.000 INFO: CGI pattern: **.php$
+- 19:11:31.000 INFO: Hide files patterns: 
+- 19:11:31.000 INFO: CGI environment variables set: TMP=C:\Users\User\AppData\Local\Temp\,TEMP=C:\Users\User\AppData\Local\Temp\,TMPDIR=C:\Users\User\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=130.1
+- 19:11:31.000 INFO: Web server url: http://127.0.0.1:64138/
+- 19:11:31.000 INFO: remote_debugging_port = 65120
+- 19:11:31.000 INFO: Sandbox is disabled
+- 19:11:31.000 DEBUG: Command line string for the browser process: "C:\MyApp\emd\emd.exe" --no-sandbox --lang=en-US --log-file="C:\MyApp\emd\debug.log" --log-severity=disable --remote-debugging-port=65120 --disable-gpu
+- 19:11:31.109 DEBUG: App context initialized
+- 19:11:31.109 INFO: Create main window
+- 19:11:31.109 DEBUG: Window max width/height = 1600/1002
+- 19:11:31.109 DEBUG: Browser window not found, hwnd = 1246926
+- 19:11:31.109 DEBUG: Event WM_GETMINMAXINFO: could not fetch browser window
+- 19:11:31.109 DEBUG: Create main browser
+- 19:11:31.109 INFO: Runtime style: alloy
+- 19:11:31.109 DEBUG: Store browser window, hwnd = 1246926
+- 19:11:31.125 INFO: Main window was created, hwnd=1246926
+- 19:11:31.172 DEBUG: Browser was created
+- 19:11:31.172 DEBUG: Set browser for window
+- 19:11:31.187 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:11:31.015 DEBUG: Command line string for the gpu-process process: "C:\MyApp\emd\emd.exe" --type=gpu-process --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --subproc-heap-profiling --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --gpu-preferences=UAAAAAAAAADgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --field-trial-handle=2136,i,17537618970144712451,16928126990943574838,262144 --variations-seed-version --enable-logging=handle --log-file=2092 --mojo-platform-channel-handle=2124 /prefetch:2
+- 19:11:31.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --start-stack-profiler --subproc-heap-profiling --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2220,i,17537618970144712451,16928126990943574838,262144 --variations-seed-version --enable-logging=handle --log-file=2832 --mojo-platform-channel-handle=2828 /prefetch:3
+- 19:11:31.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --string-annotations=is-enterprise-managed=no --subproc-heap-profiling --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=2368,i,17537618970144712451,16928126990943574838,262144 --variations-seed-version --enable-logging=handle --log-file=3672 --mojo-platform-channel-handle=3664 /prefetch:8
+- 19:11:31.000 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --subproc-heap-profiling --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=65120 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1769238170628869 --launch-time-ticks=36521270927 --field-trial-handle=4072,i,17537618970144712451,16928126990943574838,262144 --variations-seed-version --enable-logging=handle --log-file=2012 --mojo-platform-channel-handle=4140 /prefetch:1
+- 19:11:31.015 DEBUG: Command line string for the renderer process: "C:\MyApp\emd\emd.exe" --type=renderer --string-annotations=is-enterprise-managed=no --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --subproc-heap-profiling --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --no-sandbox --remote-debugging-port=65120 --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1769238170628869 --launch-time-ticks=36521225372 --field-trial-handle=3544,i,17537618970144712451,16928126990943574838,262144 --variations-seed-version --enable-logging=handle --log-file=3864 --mojo-platform-channel-handle=3992 /prefetch:1
+- 19:11:32.031 DEBUG: V8 browser was created
+- 19:11:32.469 INFO: GET 302 /
+- 19:11:32.234 DEBUG: V8 context created, in context: 1
+- 19:11:32.578 INFO: GET 200 /assets/materialize/css/materialize.min.css
+- 19:11:32.578 INFO: GET 200 /assets/materialize/js/materialize.min.js
+- 19:11:32.578 INFO: GET 200 /login.php
+- 19:11:32.625 INFO: JS Console: [Debug] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o(http://127.0.0.1:64138/login.php:0)
+- 19:11:32.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64138/login.php
+- 19:11:32.641 INFO: GET 404 /favicon.ico
+- 19:11:34.000 DEBUG: Command line string for the utility process: "C:\MyApp\emd\emd.exe" --type=utility --utility-sub-type=chrome.mojom.ProcessorMetrics --lang=en-US --service-sandbox-type=none --no-sandbox --string-annotations=is-enterprise-managed=no --subproc-heap-profiling --user-data-dir="C:\MyApp\emd\webcache" --log-severity=disable --field-trial-handle=4320,i,17537618970144712451,16928126990943574838,262144 --variations-seed-version --enable-logging=handle --log-file=4308 --mojo-platform-channel-handle=4368 /prefetch:8
+- 19:11:36.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:64138/login.php
+- 19:11:36.250 INFO: POST 302 /login.php
+- 19:11:37.031 DEBUG: V8 context created, in context: 1
+- 19:11:37.391 INFO: GET 200 /assets/justgage/raphael.min.js
+- 19:11:37.391 INFO: GET 200 /index.php
+- 19:11:37.391 INFO: GET 200 /assets/fontawesome/css/all.min.css
+- 19:11:37.391 INFO: GET 200 /assets/justgage/justgage.js
+- 19:11:37.391 INFO: GET 200 /assets/fontawesome/css/fontawesome.min.css
+- 19:11:37.391 INFO: GET 200 /assets/fontawesome/css/brands.min.css
+- 19:11:37.391 INFO: GET 200 /assets/jquery.min.js
+- 19:11:37.406 INFO: GET 200 /assets/fontawesome/webfonts/fa-solid-900.woff2
+- 19:11:37.406 INFO: GET 200 /assets/fontawesome/js/fontawesome.min.js
+- 19:11:37.406 INFO: GET 200 /assets/top.js
+- 19:11:37.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64138/index.php
+- 19:11:40.187 DEBUG: Before popup is created
+- 19:11:40.187 INFO: Setting default size for a popup window 800/600
+- 19:11:40.187 DEBUG: Window max width/height = 1600/1002
+- 19:11:40.203 DEBUG: Browser was created
+- 19:11:40.203 DEBUG: Browser window not found, hwnd = 2491152
+- 19:11:40.203 DEBUG: Create browser window for popup, hwnd=2491152
+- 19:11:40.203 DEBUG: Store browser window, hwnd = 2491152
+- 19:11:40.219 INFO: Focus browser, id=2
+- 19:11:40.219 DEBUG: Centering popup window relative to its parent
+- 19:11:40.875 DEBUG: V8 browser was created
+- 19:11:40.234 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:11:40.890 DEBUG: V8 context created, in context: 1
+- 19:11:41.391 INFO: GET 200 /help.php
+- 19:11:41.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64138/help.php
+- 19:11:52.406 INFO: Focus browser, id=1
+- 19:11:52.406 DEBUG: Before browser is closed, hwnd=2491152
+- 19:11:52.406 DEBUG: Remove browser window, hwnd = 2491152
+- 19:11:52.078 DEBUG: V8 browser was destroyed
+- 19:11:52.359 DEBUG: WM_DESTROY
+- 19:11:52.359 DEBUG: Remove browser window, hwnd = 1246926
+- 19:11:52.359 INFO: Stopping Mongoose web server
+- 19:11:52.359 DEBUG: Mongoose webserver stopped immediately
+- 19:11:52.375 DEBUG: Before browser is closed, hwnd=1573986
+- 19:11:52.375 DEBUG: Remove browser window, hwnd = 1573986
+- 19:11:52.375 DEBUG: Browser window not found, hwnd = 1573986
+- 19:11:52.375 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:11:52.375 DEBUG: Quit CEF message loop
+- 19:11:53.453 INFO: Ended application
+- 19:11:53.453 INFO: --------------------------------------------------------
