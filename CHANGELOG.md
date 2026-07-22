@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1] – 2026-07-22
+
+### Added
+* update HEDNO metering
+* Export Data to PDF
+* Fix records metering
+
 ## [1.0.3] – 2025-09-29
 
 ### Added
