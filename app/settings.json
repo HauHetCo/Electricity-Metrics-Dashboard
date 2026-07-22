@@ -1,6 +1,6 @@
 {
     "application": {
-        "single_instance_guid": "3RYTXzCWfUWTjKtrerfATA==",
+        "single_instance_guid": "",
         "dpi_aware": true
     },
     "debugging": {
@@ -10,7 +10,7 @@
         "log_file": "debug.log"
     },
     "main_window": {
-        "title": "EMD: Electricity Metrics Dashboard | Version: 1.0.3",
+        "title": "EMD: Electricity Metrics Dashboard | Version: 1.1",
         "icon": "emd.ico",
         "default_size": [800, 600],
         "minimum_size": [640, 480],
@@ -20,7 +20,7 @@
         "start_maximized": false,
         "start_fullscreen": false,
         "always_on_top": false,
-        "minimize_to_tray": true,
+        "minimize_to_tray": false,
         "minimize_to_tray_message": "Minimized to tray"
     },
     "popup_window": {
@@ -30,6 +30,7 @@
         "default_size": [800, 600]
     },
     "web_server": {
+        "listen_on": ["127.0.0.1", 0],
         "www_directory": "www",
         "index_files": ["index.html", "index.php"],
         "cgi_interpreter": "php/php-cgi.exe",
@@ -40,12 +41,12 @@
     },
     "chrome": {
         "log_file": "debug.log",
-        "log_severity": "disable",
+        "log_severity": "default",
         "cache_path": "webcache",
         "external_drag": true,
         "external_navigation": true,
         "reload_page_F5": true,
-        "devtools_F12": false,
+        "devtools_F12": true,
         "remote_debugging_port": 0,
         "runtime_style": "alloy",
         "command_line_switches": {"disable-gpu": ""},
@@ -53,20 +54,20 @@
         "context_menu": {
             "enable_menu": true,
             "navigation": true,
-            "print": false,
-            "view_source": false,
-            "open_in_external_browser": false,
+            "print": true,
+            "view_source": true,
+            "open_in_external_browser": true,
             "devtools": false,
             "help": true
         },
         "metadata": {
         "CompanyName": "HauHet plc.",
         "FileDescription": "Electricity Metrics Dashboard",
-        "FileVersion": "1.0.3",
+        "FileVersion": "1.1",
         "InternalName": "EMD",
-        "LegalCopyright": "© 2023-2025 HauHet plc. All rights reserved.",
+        "LegalCopyright": "© 2023-2026 HauHet plc. All rights reserved.",
         "ProductName": "EMD | Electricity Metrics Dashboard",
-        "ProductVersion": "1.0.3",
+        "ProductVersion": "1.1",
         "Comments": "Website: https://hauhet.co/"
        }
     }
