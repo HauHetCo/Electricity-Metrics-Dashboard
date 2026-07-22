@@ -23,7 +23,6 @@ please <a href="https://hauhet.co/contact/" rel="noopener">contact us.</a>
    * Improvement and conclusion
    * acknowledgement
 
-![App](images/emd1.jpg) 
 
 ![App](images/emd2.jpg) 
 
