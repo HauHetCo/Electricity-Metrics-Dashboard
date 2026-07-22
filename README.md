@@ -24,9 +24,8 @@ please <a href="https://hauhet.co/contact/" rel="noopener">contact us.</a>
    * acknowledgement
 
 
-![App](images/emd2.jpg) 
+![App](images/emd1.jpg) 
 
-![App](images/emd3.jpg) 
 
 # Technology
  * PHP
