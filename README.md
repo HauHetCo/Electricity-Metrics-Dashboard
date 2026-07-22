@@ -1,5 +1,5 @@
 # Electricity Metrics Dashboard
-# V. 1.0.3
+# V. 1.1
 
 # App
 EMD | Electricity Metrics Dashboard
@@ -46,4 +46,4 @@ please <a href="https://hauhet.co/contact/" rel="noopener">contact us.</a>
 
 ### Copyright
 
-HauHet plc. © 2023-2025. All Rights Reserved. [HauHet plc.](https://hauhet.co/)
+HauHet plc. © 2023-2026. All Rights Reserved. [HauHet plc.](https://hauhet.co/)
